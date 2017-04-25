@@ -1,0 +1,27 @@
+.gallery .image_block img {
+	display: block;
+	width: 100%;
+}
+
+.gallery .image_block{
+	float: left;
+	border: 1px solid black;
+	width: 10%;
+	box-sizing: border-box;
+	position: relative; 
+    transition: background 1s ease ;
+    font-size: 8px;
+    transition: transform 2s ease;
+}
+.gallery .image_block:hover{
+	background: white;
+}
+
+.gallery .image_block img{
+    transition: transform 2s ease 3s;
+}
+
+.gallery .image_block:hover {
+	z-index: 5;
+	transform: scale(3);
+}
